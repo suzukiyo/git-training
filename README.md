@@ -1,73 +1,73 @@
-**これだけで開発の8〜9割が事足りる。**
+**This alone is enough for 80 to 90% of the development.**
 
-## 基本編
+## general
 
-### 初期化する
+### initialize
 ```
 git init
 ```
 
-### クローン(コピー)する
+### clone(copy)
 ```
 git clone git@github.com:userName/repositoryName.git
 ```
 
-### チェックアウトする
+### checkout(move)
 ```
 git checkout -b feature/hogehoge
 ```
 
-### 状態を確認する
+### confirm status
 ```
 git status
 ```
 
-### 最新にする
+### update
 ```
 git pull
 ```
 
-### インデックスに登録する
+### register index
 ```
 git add .
 ```
 
-### 戻す
+### return
 ```
 git reset HEAD
 git reset HEAD core/src/main/resources/application.properties
 git reset --soft HEAD~
-git reset --hard #コミットid
+git reset --hard #commitId
 ```
 
-### コミットする
+### commit
 ```
 git commit -m "fix: refactoring shopping cart controller"
 ```
 
-### コミットを変更する
+### modify commit
 ```
 git commit --amend
 ```
 
-### 反映する
+### reflect
 ```
 git push
 ```
 
-## 番外編
+## others
 
-### 一時保存する
+### temporary save
 ```
 git stash
 ```
 
-### ブランチを削除する
+### delete branch
 ```
 git branch -d feature/hogehoge
 ```
 
-### ログを見る
+### show log
 ```
 git log --graph
 ```
